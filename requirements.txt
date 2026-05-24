@@ -1,0 +1,21 @@
+# Requirements — COMP576-Final-Project (Medical Report Generation)
+# Install with: pip install -r requirements.txt
+#
+# Additional setup:
+#   1. Install Jupyter Lab:  pip install jupyterlab
+#   2. Download CheXpert images & reports (see README)
+#   3. Download CheXNet pre-trained weights (see README)
+
+torch>=2.0.0
+torchvision>=0.15.0
+transformers>=4.35.0          # BioBERT via HuggingFace
+numpy>=1.24.0
+pandas>=2.0.0
+Pillow>=9.0.0
+nltk>=3.8.0                   # BLEU score evaluation
+scikit-learn>=1.3.0
+matplotlib>=3.7.0
+tqdm>=4.65.0
+Flask>=3.0.0                  # API server
+jupyterlab>=4.0.0
+h5py>=3.9.0                   # For model checkpoints
